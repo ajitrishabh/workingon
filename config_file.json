@@ -2,8 +2,10 @@
   "config_to_run": [
     {
       "scheduler_runtime": 300,
-      "start_time": "9,15",
-      "end_time": "15,10",
+      "start_hour_time": 9,
+      "start_minute_time": 15,
+      "end_hour_time": 15,
+      "end_minute_time": 10,
       "working_days": "['Monday','Tuesday','Wednesday','Thursday','Friday']"
     }
   ],
