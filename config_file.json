@@ -1,11 +1,32 @@
 {
-  "config_to_run":[
+  "config_to_run": [
     {
-    "scheduler_runtime":300,
-    "start_time":'9,15',
-      "end_time":'15,10',
-      "working_days":"['Monday','Tuesday','Wednesday','Thursday','Friday']"
+      "scheduler_runtime": 300,
+      "start_time": "9,15",
+      "end_time": "15,10",
+      "working_days": "['Monday','Tuesday','Wednesday','Thursday','Friday']"
     }
-    
+  ],
+  "script_to_run": [
+    {
+      "name": "BANKBEES",
+      "token": 11439,
+      "target": 0.7
+    },
+    {
+      "name": "NIFTYBEES",
+      "token": 10576,
+      "target": 0.6
+    },
+    {
+      "name": "JUNIORBEES",
+      "token": 10939,
+      "target": 0.8
+    },
+    {
+      "name": "GOLDBEES",
+      "token": 14428,
+      "target": 0.5
+    }
   ]
 }
